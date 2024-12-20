@@ -40,7 +40,7 @@ const SideBar = () => {
         <div className="flex flex-col w-full md:w-64 bg-white md:h-screen border-r relative">
             <div className={`flex justify-between md:justify-around w-full px-4 items-center`}>
                 <div className="flex items-center justify-center gap-4 h-16">
-                    <img src={'/svg/logo.svg'} alt={'logo'} className={`w-6`}/>
+                    <img src={'/logo.svg'} alt={'logo'} className={`w-6`}/>
                     <h1 className="text-lg font-semibold">CodeAnt AI</h1>
                 </div>
 
