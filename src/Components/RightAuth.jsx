@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {KeyIcon} from "@heroicons/react/16/solid";
 
-const AuthRight = () => {
+const RightAuth = () => {
 
     const [isSaas, setIsSaas] = useState(true)
 
@@ -10,7 +10,7 @@ const AuthRight = () => {
             <div className={`bg-white flex flex-col rounded-xl w-full border`}>
                 <div className={`border-b flex flex-col p-5 w-full gap-4`}>
                     <div className={`flex items-center justify-center gap-4`}>
-                        <img src={'/svg/logo.svg'} alt={'logo'}/>
+                        <img src={'/logo.svg'} alt={'logo'}/>
                         <span className={`font-light`}>CodeAnt AI</span>
                     </div>
                     <div className={`flex justify-center text-2xl font-semibold mt-2`}>
@@ -29,22 +29,22 @@ const AuthRight = () => {
                             isSaas ? (
                                 <div className="flex items-center flex-col justify-center w-full gap-2 max-w-[400px]">
                                     <a href={'/dashboard'} className="border items-center flex w-full gap-3 p-2 rounded-xl justify-center">
-                                       <img src={'/svg/github.svg'} alt={'github'} className={`w-5`}/>
+                                       <img src={'/github.svg'} alt={'github'} className={`w-5`}/>
                                         Sign in with Github
                                     </a>
                                     <a href={'/dashboard'}
                                        className="border items-center flex w-full gap-3 p-2 rounded-xl justify-center">
-                                        <img src={'/svg/bitbucket.svg'} alt={'bitbucket'} className={`w-5`}/>
+                                        <img src={'/bitbucket.svg'} alt={'bitbucket'} className={`w-5`}/>
                                         Sign in with Bitbucket
                                     </a>
                                     <a href={'/dashboard'}
                                        className="border items-center flex w-full gap-3 p-2 rounded-xl justify-center">
-                                        <img src={'/svg/azure-devops.svg'} alt={'azure-devops'} className={`w-5`}/>
+                                        <img src={'/azure-devops.svg'} alt={'azure-devops'} className={`w-5`}/>
                                         Sign in with Azure Devops
                                     </a>
                                     <a href={'/dashboard'}
                                        className="border items-center flex w-full gap-3 p-2 rounded-xl justify-center">
-                                        <img src={'/svg/gitlab.svg'} alt={'gitlab'} className={`w-5`}/>
+                                        <img src={'/gitlab.svg'} alt={'gitlab'} className={`w-5`}/>
                                         Sign in with GitLab
                                     </a>
                                 </div>
@@ -52,7 +52,7 @@ const AuthRight = () => {
                                 <div className="flex items-center flex-col justify-center w-full gap-2 max-w-[400px]">
                                     <a href={'/dashboard'}
                                        className="border items-center flex w-full gap-3 p-2 rounded-xl justify-center">
-                                        <img src={'/svg/gitlab.svg'} alt={'gitlab'} className={`w-5`}/>
+                                        <img src={'/gitlab.svg'} alt={'gitlab'} className={`w-5`}/>
                                         Sign in with GitLab
                                     </a>
                                     <a href={'/dashboard'}
@@ -74,4 +74,4 @@ const AuthRight = () => {
     );
 };
 
-export default AuthRight;
+export default RightAuth;

@@ -1,12 +1,12 @@
 import { ArrowLongUpIcon } from "@heroicons/react/16/solid";
 
-const AuthLeft = () => {
+const LeftAuth = () => {
   return (
     <div
       className={`hidden md:flex h-full w-1/2 bg-white border-r relative flex-col justify-center items-center`}
     >
       <img
-        src={"/png/logoFaded.png"}
+        src={"/logoFaded.png"}
         alt={"logo"}
         className={`absolute left-0 bottom-0 w-[300px] aspect-square`}
       />
@@ -14,7 +14,7 @@ const AuthLeft = () => {
         className={`flex rounded-xl shadowCardAuth flex-col w-full max-w-[400px]`}
       >
         <div className={`flex gap-2 items-center border-b p-4`}>
-          <img src={"/svg/logo.svg"} alt={"logo"} className={`w-6 h-6`} />
+          <img src={"/logo.svg"} alt={"logo"} className={`w-6 h-6`} />
           <span className={`font-semibold`}>
             AI to Detect & Autofix Bad Code
           </span>
@@ -40,7 +40,7 @@ const AuthLeft = () => {
         className={`flex rounded-xl shadowCardAuth flex-col gap-2 p-4 px-8 translate-x-[50%] -translate-y-[10px] bg-white`}
       >
         <div className={`flex justify-between min-w-40`}>
-          <img src={"/svg/GraphAuth.svg"} alt={"graph"} className={``} />
+          <img src={"/GraphAuth.svg"} alt={"graph"} className={``} />
           <div className={`flex flex-col`}>
             <div className={`flex items-center text-primary`}>
               <ArrowLongUpIcon className={`w-5`} />
@@ -60,4 +60,4 @@ const AuthLeft = () => {
   );
 };
 
-export default AuthLeft;
+export default LeftAuth;
